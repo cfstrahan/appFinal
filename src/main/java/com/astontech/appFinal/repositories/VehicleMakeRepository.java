@@ -1,4 +1,7 @@
 package com.astontech.appFinal.repositories;
 
-public interface VehicleMakeRepository {
+import com.astontech.appFinal.domain.VehicleMake;
+import org.springframework.data.repository.CrudRepository;
+
+public interface VehicleMakeRepository extends CrudRepository<VehicleMake, Integer> {
 }

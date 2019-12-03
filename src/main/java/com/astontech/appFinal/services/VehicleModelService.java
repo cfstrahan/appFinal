@@ -6,7 +6,7 @@ public interface VehicleModelService {
 
     Iterable<VehicleModel> listAllVehicleModels();
 
-    VehicleModel getVehicleModelById();
+    VehicleModel getVehicleModelById(Integer id);
 
     VehicleModel saveVehicleModel(VehicleModel vehicleModel);
 
